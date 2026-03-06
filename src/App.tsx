@@ -148,6 +148,72 @@ function App() {
               <div className="insight-label">핵심 인사이트</div>
               <p>옥수동·금호동은 <strong>'강남 배후 주거지(베드타운)의 정석'</strong>으로 불리는 곳. 자체 대형 일자리는 없으나, 강남·광화문 고소득 직장인의 실거주 수요가 부동산 가치를 완벽하게 지탱.</p>
             </div>
+
+            <h3 className="sub-title">금호·옥수 동별 입지 종합 데이터</h3>
+            <div className="table-wrap">
+              <table className="data-table">
+                <thead>
+                  <tr>
+                    <th>동</th>
+                    <th>지하철역</th>
+                    <th>직장인구</th>
+                    <th>사업체 수</th>
+                    <th>종사자 수</th>
+                    <th>광화문</th>
+                    <th>여의도</th>
+                    <th>강남</th>
+                    <th>경사도 (점수)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>금호1가</strong></td>
+                    <td>신금호 (5호선)</td>
+                    <td>1,732명</td>
+                    <td>914개</td>
+                    <td>2,156명</td>
+                    <td><span className="badge-s">9분 무환승</span></td>
+                    <td>22분</td>
+                    <td>10분</td>
+                    <td>1.8점</td>
+                  </tr>
+                  <tr>
+                    <td><strong>금호2·3가</strong></td>
+                    <td>금호+신금호 (3·5호선)</td>
+                    <td>244명</td>
+                    <td>1,489개</td>
+                    <td>2,943명</td>
+                    <td><span className="badge-s">무환승</span></td>
+                    <td>—</td>
+                    <td><span className="badge-s">압구정 2정거장</span></td>
+                    <td>2.5점</td>
+                  </tr>
+                  <tr>
+                    <td><strong>금호4가</strong></td>
+                    <td>금호 (3호선)</td>
+                    <td>507명</td>
+                    <td>989개</td>
+                    <td>2,219명</td>
+                    <td>25분 (2환)</td>
+                    <td>28분 (2환)</td>
+                    <td>35분 (2환)</td>
+                    <td>2.2점</td>
+                  </tr>
+                  <tr>
+                    <td><strong>옥수동</strong></td>
+                    <td>옥수 (3·6호선)</td>
+                    <td>3,197명</td>
+                    <td>1,455개</td>
+                    <td>4,841명</td>
+                    <td>25분 (2환)</td>
+                    <td>19분 (2환)</td>
+                    <td>35분 (2환)</td>
+                    <td>3.0점</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <img src="/images/img_slope.png" alt="경사도 참조 이미지" className="full-img" loading="lazy" />
           </div>
         </section>
 
@@ -203,71 +269,6 @@ function App() {
             </div>
 
             <img src="/images/img01_business.png" alt="성동구 사업체 현황" className="full-img" loading="lazy" />
-
-            <h3 className="sub-title">금호·옥수 동별 입지 종합 데이터</h3>
-            <div className="table-wrap">
-              <table className="data-table">
-                <thead>
-                  <tr>
-                    <th>동</th>
-                    <th>지하철역</th>
-                    <th>직장인구</th>
-                    <th>사업체 수</th>
-                    <th>종사자 수</th>
-                    <th>광화문</th>
-                    <th>여의도</th>
-                    <th>강남</th>
-                    <th>경사도</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong>금호1가</strong></td>
-                    <td>신금호 (5호선)</td>
-                    <td>1,732명</td>
-                    <td>914개</td>
-                    <td>2,156명</td>
-                    <td><span className="badge-s">9분 무환승</span></td>
-                    <td>22분</td>
-                    <td>10분</td>
-                    <td>1.8°</td>
-                  </tr>
-                  <tr>
-                    <td><strong>금호2·3가</strong></td>
-                    <td>금호+신금호 (3·5호선)</td>
-                    <td>244명</td>
-                    <td>1,489개</td>
-                    <td>2,943명</td>
-                    <td><span className="badge-s">무환승</span></td>
-                    <td>—</td>
-                    <td><span className="badge-s">압구정 2정거장</span></td>
-                    <td>2.5°</td>
-                  </tr>
-                  <tr>
-                    <td><strong>금호4가</strong></td>
-                    <td>금호 (3호선)</td>
-                    <td>507명</td>
-                    <td>989개</td>
-                    <td>2,219명</td>
-                    <td>25분 (2환)</td>
-                    <td>28분 (2환)</td>
-                    <td>35분 (2환)</td>
-                    <td>2.2°</td>
-                  </tr>
-                  <tr>
-                    <td><strong>옥수동</strong></td>
-                    <td>옥수 (3·6호선)</td>
-                    <td>3,197명</td>
-                    <td>1,455개</td>
-                    <td>4,841명</td>
-                    <td>25분 (2환)</td>
-                    <td>19분 (2환)</td>
-                    <td>35분 (2환)</td>
-                    <td>3.0°</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
 
             <div className="insight-box warning">
               <div className="insight-label">투자 분석</div>
